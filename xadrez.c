@@ -18,6 +18,8 @@ int main() {
         printf("Cima, Direita\n");
         b++;
     }
+    
+    printf("\n");
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
@@ -26,6 +28,8 @@ int main() {
         printf("Direita\n");
         t++;
     } while (t <= torre);
+    
+    printf("\n");
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
@@ -35,5 +39,7 @@ int main() {
         printf("Esquerda\n");
     }
 
+    printf("\n");
+    
     return 0;
 }
